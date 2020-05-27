@@ -7,4 +7,4 @@ def Hello(text_req):
     return str("پیام شما دریافت شد :"+Ai_Local_Server(text_req)+"You Little Piece Of Shit")
 
 if __name__== '__main__':
-    app.run(port=1)
+    app.run(port=8080)
